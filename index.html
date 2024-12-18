@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Terbaru</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .movie-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie-details {
+            padding: 10px;
+        }
+
+        .movie-title {
+            font-size: 16px;
+            margin: 8px 0;
+            color: #333;
+        }
+
+        .movie-rating {
+            background-color: #f4b400;
+            color: #fff;
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .movie-year {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .hd-tag {
+            background-color: #0f9d58;
+            color: #fff;
+            padding: 3px 6px;
+            font-size: 12px;
+            border-radius: 3px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 20px;">MOVIE TERBARU</h1>
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="movie-card">
+            <img src="placeholder1.jpg" alt="The Crossroads">
+            <div class="movie-details">
+                <div class="movie-rating">⭐ 5.9</div>
+                <div class="movie-title">The Crossroads</div>
+                <div class="movie-year">(2024)</div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="movie-card">
+            <img src="placeholder2.jpg" alt="Small Things Like These">
+            <div class="movie-details">
+                <div class="movie-rating">⭐ 7.2</div>
+                <div class="movie-title">Small Things Like These</div>
+                <div class="movie-year">(2024)</div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="movie-card">
+            <img src="placeholder3.jpg" alt="The Abandon">
+            <div class="movie-details">
+                <div class="movie-rating">⭐ 4.7</div>
+                <div class="movie-title">The Abandon</div>
+                <div class="movie-year">(2024)</div>
+            </div>
+        </div>
+        <!-- Tambahkan lebih banyak card di sini -->
+    </div>
+</body>
+</html>
